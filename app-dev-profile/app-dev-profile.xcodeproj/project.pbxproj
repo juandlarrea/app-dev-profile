@@ -12,6 +12,7 @@
 		0DCD347D20EC5AA100BBA45E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DCD347B20EC5AA100BBA45E /* Main.storyboard */; };
 		0DCD347F20EC5AA200BBA45E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DCD347E20EC5AA200BBA45E /* Assets.xcassets */; };
 		0DCD348220EC5AA200BBA45E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DCD348020EC5AA200BBA45E /* LaunchScreen.storyboard */; };
+		0DCD348F20EC678900BBA45E /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCD348E20EC678900BBA45E /* RoundedImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0DCD347E20EC5AA200BBA45E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DCD348120EC5AA200BBA45E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DCD348320EC5AA200BBA45E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCD348E20EC678900BBA45E /* RoundedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		0DCD347620EC5AA100BBA45E /* app-dev-profile */ = {
 			isa = PBXGroup;
 			children = (
+				0DCD348920EC651200BBA45E /* View */,
 				0DCD347720EC5AA100BBA45E /* AppDelegate.swift */,
 				0DCD347920EC5AA100BBA45E /* ViewController.swift */,
 				0DCD347B20EC5AA100BBA45E /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				0DCD348320EC5AA200BBA45E /* Info.plist */,
 			);
 			path = "app-dev-profile";
+			sourceTree = "<group>";
+		};
+		0DCD348920EC651200BBA45E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0DCD348E20EC678900BBA45E /* RoundedImage.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DCD348F20EC678900BBA45E /* RoundedImage.swift in Sources */,
 				0DCD347A20EC5AA100BBA45E /* ViewController.swift in Sources */,
 				0DCD347820EC5AA100BBA45E /* AppDelegate.swift in Sources */,
 			);
