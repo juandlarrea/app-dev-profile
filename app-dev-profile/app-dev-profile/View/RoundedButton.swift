@@ -8,12 +8,22 @@
 
 import UIKit
 
+@IBDesignable
+
 class RoundedButton: UIButton {
 
+    override func prepareForInterfaceBuilder() {
+        addRoundedButton()
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        addRoundedButton()
+    }
+
+    func addRoundedButton() {
         self.layer.cornerRadius = 5
         self.clipsToBounds = true
     }
-
+    
 }

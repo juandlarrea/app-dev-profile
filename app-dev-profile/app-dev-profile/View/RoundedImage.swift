@@ -8,12 +8,21 @@
 
 import UIKit
 
+@IBDesignable
+
 class RoundedImage: UIImageView {
 
+    override func prepareForInterfaceBuilder() {
+        addRoundedImage()
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        addRoundedImage()
+    }
+
+    func addRoundedImage() {
         self.layer.cornerRadius = 5
         self.clipsToBounds = true
     }
-
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -16,17 +16,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="app_dev_profile" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Devslopes BG - June 2017-1920x1080" translatesAutoresizingMaskIntoConstraints="NO" id="jI7-gj-FTt">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="162"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="162"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="162" id="rk6-2c-KNT"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="devslopesProfileLogo" translatesAutoresizingMaskIntoConstraints="NO" id="tR9-PN-IUV" customClass="RoundedImage" customModule="app_dev_profile" customModuleProvider="target">
-                                <rect key="frame" x="25" y="120" width="105" height="105"/>
+                                <rect key="frame" x="25" y="120" width="170" height="170"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="170" id="9Am-oQ-HgE"/>
                                     <constraint firstAttribute="width" constant="105" id="B4x-bV-8BK"/>
@@ -49,7 +49,7 @@
                                 </variation>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devslopes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rm5-IW-FDZ">
-                                <rect key="frame" x="145" y="179" width="96.666666666666686" height="27.333333333333343"/>
+                                <rect key="frame" x="225" y="205.5" width="140" height="40"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -58,7 +58,7 @@
                                 </variation>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="W9X-PN-KEK">
-                                <rect key="frame" x="82" y="250" width="250" height="57"/>
+                                <rect key="frame" x="493" y="197" width="250" height="57"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWE-0z-xhg">
                                         <rect key="frame" x="0.0" y="0.0" width="58" height="57"/>
@@ -75,10 +75,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="Clh-Yc-kIh">
-                                <rect key="frame" x="15" y="332" width="384" height="185.66666666666663"/>
+                                <rect key="frame" x="15" y="340" width="738" height="250"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Data Image" translatesAutoresizingMaskIntoConstraints="NO" id="CNM-zV-gLr">
-                                        <rect key="frame" x="0.0" y="0.0" width="185.66666666666666" height="185.66666666666666"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Data Image" translatesAutoresizingMaskIntoConstraints="NO" id="CNM-zV-gLr" customClass="RoundedImage" customModule="app_dev_profile" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="362.5" height="250"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="CNM-zV-gLr" secondAttribute="height" multiplier="1:1" id="fQo-Ml-wIW"/>
                                         </constraints>
@@ -88,16 +88,16 @@
                                             </mask>
                                         </variation>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images Image" translatesAutoresizingMaskIntoConstraints="NO" id="Yh0-QS-8EO">
-                                        <rect key="frame" x="198.66666666666663" y="0.0" width="185.33333333333337" height="185.66666666666666"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Images Image" translatesAutoresizingMaskIntoConstraints="NO" id="Yh0-QS-8EO" customClass="RoundedImage" customModule="app_dev_profile" customModuleProvider="target">
+                                        <rect key="frame" x="375.5" y="0.0" width="362.5" height="250"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="qBF-vq-0fr">
-                                <rect key="frame" x="15" y="532.66666666666663" width="384" height="185"/>
+                                <rect key="frame" x="15" y="620" width="738" height="250"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Videos Image" translatesAutoresizingMaskIntoConstraints="NO" id="9wo-Lt-6iG">
-                                        <rect key="frame" x="0.0" y="0.0" width="185.66666666666666" height="185"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Videos Image" translatesAutoresizingMaskIntoConstraints="NO" id="9wo-Lt-6iG" customClass="RoundedImage" customModule="app_dev_profile" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="362.5" height="250"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="9wo-Lt-6iG" secondAttribute="height" multiplier="1:1" id="HiO-GW-Vb5"/>
                                         </constraints>
@@ -107,8 +107,8 @@
                                             </mask>
                                         </variation>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Code" translatesAutoresizingMaskIntoConstraints="NO" id="dxy-ZR-SAo">
-                                        <rect key="frame" x="198.66666666666663" y="0.0" width="185.33333333333337" height="185"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Code" translatesAutoresizingMaskIntoConstraints="NO" id="dxy-ZR-SAo" customClass="RoundedImage" customModule="app_dev_profile" customModuleProvider="target">
+                                        <rect key="frame" x="375.5" y="0.0" width="362.5" height="250"/>
                                     </imageView>
                                 </subviews>
                             </stackView>
@@ -158,8 +158,8 @@
                             <mask key="constraints">
                                 <exclude reference="zmL-U4-XrX"/>
                                 <exclude reference="DQi-oD-Vkv"/>
-                                <exclude reference="OUM-zH-khf"/>
                                 <exclude reference="5Aw-mQ-IYz"/>
+                                <exclude reference="OUM-zH-khf"/>
                                 <exclude reference="5h9-Tt-vGY"/>
                             </mask>
                         </variation>
@@ -171,11 +171,11 @@
                                 <include reference="zmL-U4-XrX"/>
                                 <include reference="DQi-oD-Vkv"/>
                                 <exclude reference="cp2-PV-R5w"/>
-                                <exclude reference="ImN-sr-rTU"/>
-                                <include reference="OUM-zH-khf"/>
                                 <include reference="5Aw-mQ-IYz"/>
                                 <exclude reference="AMA-mM-Uo6"/>
                                 <exclude reference="Rcm-yP-5Il"/>
+                                <exclude reference="ImN-sr-rTU"/>
+                                <include reference="OUM-zH-khf"/>
                                 <include reference="5h9-Tt-vGY"/>
                                 <exclude reference="XbU-SH-aYF"/>
                             </mask>
